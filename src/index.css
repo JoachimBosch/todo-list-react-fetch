@@ -1,5 +1,12 @@
 body {
-  font-family: 'Segoe UI';
+  font-family: "Catamaran";
+}
+
+.catamaran {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .wrapper {
@@ -87,6 +94,19 @@ ul {
   color: lightgrey;
   background-color: white;
   font-size: 20px;
+}
+
+.deleteAll {
+  padding: 4px;
+  position: relative;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  color: red;
+  background-color: white;
 }
 
 .task-item:hover .delete-button {
